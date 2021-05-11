@@ -1,0 +1,175 @@
+<?php
+include 'layout.php';
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Operating Systems</title>
+    <style>
+    body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://wallpaperaccess.com/full/1908806.jpg");
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 83%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.heading1 {
+    font-size:40px;
+    font-family: 'Kiwi Maru', serif;
+    position: absolute;
+    left: 10%; 
+    color: black;
+}
+.content_1 {
+    position:relative;
+    top:50px;
+    width: 75%;
+    margin-left: 10%; 
+    /* margin:0 10 0 10; */
+    font-size: 20px;
+}
+.img1 {
+    position:relative;
+    top:50px;
+    width:75%;
+    margin-left: 30%;
+}
+.img2 {
+    position:relative;
+    top:50px;
+    width:75%;
+    margin-left: 30%;
+}
+.content_2 {
+    position:relative;
+    top:50px;
+    width: 75%;
+    margin-left: 10%; 
+    /* margin:0 10 0 10; */
+    font-size: 20px;
+}
+.article_list {
+
+    position:relative;
+    top:10%;
+    bottom:5%;
+    width:50%;
+    left:10%;
+}
+    </style>
+</head>
+<body>
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:70px">COMPUTER NETWORKS</h1>
+  </div>
+</div>
+<!-- content --><br>
+<h2 class = "heading1"><b>Introduction To Computer Networks</b></h2>
+<div class = "content_1">
+<p><hr>-> An interconnection of multiple devices, also known as hosts, that are connected using multiple paths for
+the purpose of sending/receiving data or media. Computer networks can also include multiple devices/mediums which
+help in the communication between two different devices; these are known as Network devices and include things such
+as routers, switches, hubs, and bridges.</p>
+<p>-><b>Open system:</b><br>
+A system which is connected to the network and is ready for communication. <br><br>
+
+-><b>Closed system:</b><br> 
+A system which is not connected to the network and can’t be communicated with. 
+</p>
+</div>
+<br>
+
+<div class = "img1">
+<img src = "images/cn1.jpg">
+</div>
+<br>
+
+<div class = "content_2">
+<p>-><b>Network Topology: </b><br>
+The layout arrangement of the different devices in a network. Common examples include: Bus, Star, Mesh, Ring, and
+Daisy chain.<br><br>
+
+-><b>OSI: </b><br> 
+OSI stands for Open Systems Interconnection. It is a reference model that specifies standards for communications protocols
+and also the functionalities of each layer.  
+</p>
+</div>
+<br>
+
+<div class = "img2">
+<img src = "images/cn2.jpg">
+</div>
+<br>
+
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="text-center mb-20">
+      <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Recommend Articles</h1>
+    </div>
+    <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Authentic Cliche Forage</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Kinfolk Chips Snackwave</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Coloring Book Ethical</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">The Catcher In The Rye</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
+<?php
+include 'footer.php';
+?>
